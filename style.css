@@ -1,0 +1,25 @@
+html {
+background-color: #ff8400;
+}
+html {
+  background-color: #ff8400;
+  animation: colorChange 10s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #ff8400;
+  }
+  25% {
+    background-color: #ff0000;
+  }
+  50% {
+    background-color: #0000ff;
+  }
+  75% {
+    background-color: #00ff00;
+  }
+  100% {
+    background-color: #ff8400;
+  }
+}
